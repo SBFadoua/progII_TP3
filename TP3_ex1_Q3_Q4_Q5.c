@@ -12,7 +12,7 @@ int * codon_start(char * ADN,int N){
 	ind=(int*) malloc(n*sizeof(int));
 	for(i=0;i<N-2;i++){
 		if((*(ADN+i)=='A')&&(*(ADN+i+1)=='T')&&(*(ADN+i+2)=='G')){
-			ind[j]=i; // i+1 ?
+			ind[j]=i;
 			j++;
 			n++;
 			ind=(int*)realloc(ind, n*sizeof(int));
