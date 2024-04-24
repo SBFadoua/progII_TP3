@@ -56,7 +56,8 @@ int main() {
 	int *tab;
 	int N,M; 
 	int k;
-
+	
+	// test avec l'exemple de la série TP 
 	T="ATCTCAATGCTCGGTAATCTCTCATAGCCGACGATGCTACGATAA";
 	//N=44;
 	N=strlen(T)-1;
